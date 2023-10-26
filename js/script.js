@@ -339,7 +339,6 @@ function generateAuthors(){
     allAuthorsData.authors.push({
       authorName: author,
       count: allAuthors[author],
-      className: calculateAuthorClass(allAuthors[author], authorParams)
     });
 
 
